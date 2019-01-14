@@ -1,0 +1,17 @@
+{
+  "name": "Percentile",
+  "description": "Return the percentile value of a cell",
+  "tags": ["basic statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/percentile_operator"],
+  "properties": [
+ {
+    "kind": "DoubleProperty",
+    "name": "percentile",
+    "defaultValue": 0.01,
+    "description": "a positive number, the percentile to return"
+  }
+]
+}
+
+
