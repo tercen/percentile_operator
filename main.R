@@ -1,9 +1,10 @@
 library(tercen)
 library(dplyr)
 
+ctx = tercenCtx()
 prob <- as.double(ctx$op.value('percentile'))
 
-(ctx = tercenCtx())  %>% 
+ctx %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
   summarise(percentile = quantile(.y, probs = c(prob))) %>%
