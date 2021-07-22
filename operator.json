@@ -1,6 +1,6 @@
 {
   "name": "Percentile",
-  "description": "Return the percentile value of a cell",
+  "description": "Calculates the percentile value of a cell",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/percentile_operator"],
