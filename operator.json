@@ -1,6 +1,6 @@
 {
   "name": "Percentile",
-  "description": "Calculates the percentile value of a cell",
+  "description": "Calculates the percentile value of a cell.",
   "tags": [
     "descriptive statistics"
   ],
