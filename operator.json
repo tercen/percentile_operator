@@ -54,7 +54,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Data",
-                "type": "numeric",
+                "type": "double",
                 "description": "Numeric input data per cell.",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
